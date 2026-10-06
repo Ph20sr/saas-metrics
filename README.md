@@ -31,7 +31,7 @@ const subs = [
 ```js
 import { mrrAt, monthlyReport, ltv, cohorts } from 'saas-metrics';
 
-mrrAt(subs, '2026-03-31'); // 347
+mrrAt(subs, '2026-03-31'); // 248 (149 + 99; cli_B cancelou)
 
 const report = monthlyReport(subs, '2026-01', '2026-06');
 // [{
