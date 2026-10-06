@@ -1,0 +1,12 @@
+{
+  "name": "saas-metrics",
+  "version": "1.0.0",
+  "description": "Métricas de SaaS a partir do histórico de assinaturas: MRR, movimentação (novo, expansão, contração, churn, reativação), churn, NRR, ARPU, LTV e retenção por safra. Zero dependências.",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "keywords": ["saas", "mrr", "churn", "nrr", "ltv", "cohort", "metrics", "assinaturas"],
+  "license": "MIT"
+}
